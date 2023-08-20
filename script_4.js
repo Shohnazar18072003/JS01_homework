@@ -1,102 +1,99 @@
 //  Scope
 //  50  Example
 
-// 1
+{
+  let x = 2;
+}
 
-// 2
+function myFunction() {
+  let carName = "Volvo";
+  // code here CAN use carName
+}
 
-// 3
+function myFunction() {
+  var carName = "Volvo"; // Function Scope
+}
 
-// 4
+var x = 2; // Global scope
 
-// 5
+function exampleFunction() {
+  const x = "declared inside function"; // x can only be used in exampleFunction
+  console.log("Inside function");
+  console.log(x);
+}
 
-// 6
+console.log(x); // Causes error
 
-// 7
+const x = "declared outside function";
 
-// 8
+exampleFunction();
 
-// 9
+function exampleFunction() {
+  console.log("Inside function");
+  console.log(x);
+}
 
-// 10
+console.log("Outside function");
+console.log(x);
 
-// 11
+{
+  var x = 1;
+}
+console.log(x); // 1
 
-// 12
+// program to print a text
+let aa = "hello";
 
-// 13
+function greet() {
+  console.log(a);
+}
 
-// 14
+greet(); // hello
 
-// 15
+// program to show the change in global variable
+let a = "hello";
 
-// 16
+function greet() {
+  a = 3;
+}
 
-// 17
+// before the function call
+console.log(a);
 
-// 18
+//after the function call
+greet();
+console.log(a); // 3
 
-// 19
+// program showing local scope of a variable
+let b = "hello";
 
-// 20
+function greet() {
+  let b = "World";
+  console.log(a + b);
+}
 
-// 21
+greet();
+console.log(a + b); // error
 
-// 22
+// program showing block-scoped concept
+// global variable
+let c = "Hello";
 
-// 23
+function greet() {
+  // local variable
+  let b = "World";
 
-// 24
+  console.log(a + " " + b);
 
-// 25
+  if (b == "World") {
+    // block-scoped variable
+    let c = "hello";
 
-// 26
+    console.log(a + " " + b + " " + c);
+  }
 
-// 27
+  // variable c cannot be accessed here
+  console.log(a + " " + b + " " + c);
+}
 
-// 28
-
-// 29
-
-// 30
-
-// 31
-
-// 32
-
-// 33
-
-// 34
-
-// 35
-
-// 36
-
-// 37
-
-// 38
-
-// 39
-
-// 40
-
-// 41
-
-// 42
-
-// 43
-
-// 44
-
-// 45
-
-// 46
-
-// 47
-
-// 48
-
-// 49
-
-// 50
+greet();

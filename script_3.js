@@ -1,102 +1,99 @@
 //  If  Else
 //  50  Example
 
-// 1
+// let a, b, c, d, cnt = 0, min = 999, max = 0;
+// a = 11;
+// b = 4;
+// c = 6;
+// d = 7;
+// if (a > b) a++;
+// else b ++;
+// // 1 
 
-// 2
+// if (a > b) console.log(a);
+// else console.log(b);
+// // 2
 
-// 3
 
-// 4
+// if (a == 1) cnt++;
+// else cnt--;
+// // 3
 
-// 5
+// if (a % 2 != 0) console.log('toq');
+// else console.log('juft');
+// // 4
 
-// 6
+// if (a > b && a > c) a += 2;
+// else a -= 3;
+// // 5
 
-// 7
+// if (a > d || a > c) console.log(true);
+// else console.log(false);
+// // 6
 
-// 8
+// if (a > 0)console.log('musbat');
+// else console.log('manfiy');
+// // 7
 
-// 9
+// if (a % 2 == 0 && a > 0) console.log('juft musbat');
+// else if (a > 0 && a % 2 != 0) console.log('toq musbat');
+// // 8
 
-// 10
+// if (a % c == 0) console.log(true);
+// else console.log(false);
+// // 9 
 
-// 11
+// if (b >= c && b > d) max = b;
+// else if (c >= b && b >= d) max = c;
+// // 10
 
-// 12
+// if (a <= b && a <= c) min = a;
+// else if (b <= a && b <= c) min = b;
+// // 11
 
-// 13
+// if (a == b) console.log('a == b');
+// else if (a == c) console.log('a == c');
+// else console.log('b == c');
+// // 12
 
-// 14
 
-// 15
+// var a1, a2, a3;
 
-// 16
+// if (a1 > 0) a1 = 1;
+// else a1 = 0;
 
-// 17
+// if (a2 > 0) a2 = 1;
+// else a2 = 0;
 
-// 18
+// if (a3 > 0) a3 = 1;
+// else a3 = 0;
 
-// 19
+// console.log(a1 + a2 + a3);
+// // 13
 
-// 20
+// var musbat = 0, manfiy = 0, a1 = 1, a2 = -2, a3 = -9;
+// if (a1 > 0) musbat++;
+// if (a1 < 0) manfiy--;
+// if (a2 > 0) musbat++;
+// if (a2 < 0) manfiy--;
+// if (a3 > 0) musbat++;
+// if (a3 < 0) manfiy--;
+// console.log(musbat + " " + manfiy );
+// // 14
 
-// 21
+// if (a != b) a = b = a + b;
+// else a = b = 0;
+// console.log(a + ' ' + b);
+// // 15
 
-// 22
+// if (a == 1)console.log('yomon');
+// if (a == 2) console.log('qoniqarsiz');
+// if (a == 3) console.log('qoniqarli');
+// if (a == 4) console.log('yahshi');
+// if (a == 5) console.log("a'lo");
+// else console.log(false);
+// // 16
 
-// 23
-
-// 24
-
-// 25
-
-// 26
-
-// 27
-
-// 28
-
-// 29
-
-// 30
-
-// 31
-
-// 32
-
-// 33
-
-// 34
-
-// 35
-
-// 36
-
-// 37
-
-// 38
-
-// 39
-
-// 40
-
-// 41
-
-// 42
-
-// 43
-
-// 44
-
-// 45
-
-// 46
-
-// 47
-
-// 48
-
-// 49
-
-// 50
+// if (b > c && b < a) console.log(true);
+// else console.log(false);
+// // 17

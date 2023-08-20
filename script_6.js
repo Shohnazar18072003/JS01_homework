@@ -1,102 +1,84 @@
 //  Type Convertion
 //  50  Example
 
-// 1
+// let num = 4;
+// console.log(typeof num);
+// let res = String(9)
+// console.log(res);
+// console.log(typeof res);
 
-// 2
+// console.log('');
 
-// 3
+// let num1 = null;
+// console.log(typeof num1);
 
-// 4
+// let res1 = String(num1)
 
-// 5
+// console.log(res1);
+// console.log(typeof res1);
 
-// 6
+// console.log(' ');
 
-// 7
+// let num2 = undefined;
+// console.log(typeof num2);
 
-// 8
+// let res2 = String(num2)
 
-// 9
+// console.log(res2);
+// console.log(typeof res2);
 
-// 10
 
-// 11
 
-// 12
+// console.log(' ');
 
-// 13
+// let num3 = true;
+// console.log(typeof num3);
 
-// 14
+// let res3 = String(num3);
+// console.log(res3);
+// console.log(typeof res3);
 
-// 15
 
-// 16
+// console.log(' ');
 
-// 17
+// let num4 = {name: 'Victus'};
+// console.log(typeof num4);
 
-// 18
+// let res4 = String(num4.name);
+// console.log(res4);
+// console.log(typeof res4);
 
-// 19
 
-// 20
+// console.log(' ');
 
-// 21
+// let num5 = [1, 'Victus'];
+// console.log(typeof num5);
 
-// 22
+// let res5 = String(num5[0]);
+// console.log(res5);
+// console.log(typeof res5);
 
-// 23
 
-// 24
 
-// 25
 
-// 26
+// console.log(' ');
 
-// 27
+// let num6 = {name: 'Victus'};
+// console.log(typeof num6);
 
-// 28
+// let res6 = Number(num6.name);
+// console.log(res6);
+// console.log(typeof res6);
 
-// 29
 
-// 30
 
-// 31
 
-// 32
+// console.log(' ');
 
-// 33
 
-// 34
+// let cnt = '1';
+// console.log(typeof cnt);
 
-// 35
-
-// 36
-
-// 37
-
-// 38
-
-// 39
-
-// 40
-
-// 41
-
-// 42
-
-// 43
-
-// 44
-
-// 45
-
-// 46
-
-// 47
-
-// 48
-
-// 49
-
-// 50
+// let res7 = Boolean(cnt);
+// console.log(res7);
+// console.log(typeof res7);

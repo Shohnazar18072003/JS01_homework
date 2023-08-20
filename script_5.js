@@ -1,102 +1,59 @@
 //  Function
 //  50  Example
 
-// 1
+// function func1(a, b, res) {
+//    res = a + b;
+//    console.log(res);
+// }
+// func1(3, 8)
 
-// 2
+// function func2(a) {
+//    if (a > 0) console.log('musbat');
+//    else console.log('manfiy');
+// }
 
-// 3
+// func2(2)
+// function func3(a) {
+//    if(a % 2 == 0) console.log('juft');
+//    else console.log('toq');
+// }
+// func3(3)
 
-// 4
+// function func4(a, b, res) {
+//    if (a > b)res = a;
+//    else res = b;
+//    console.log(res);
+// }
+// func4(5, 10)
 
-// 5
+// function func5(a) {
+//    if (a > 0)a++
+//    else a--;
+//    console.log(a);
+// }
+// func5(10)
 
-// 6
+// function func6(a, b, c, res) {
+//    if (a == b || a == c)res = a;
+//    else if(b == a || b== c)res = b;
+//    else res = c;
+//    console.log(res);
+// }
+// func6(10, 2, 3)
 
-// 7
+// function func7(a) {
+//    if (a % 2 == 0 && a >= 0) console.log('juft musbat');
+//    if (a % 2 != 0 && a >= 0) console.log('toq musbat');
+//    if (a % 2 == 0 && a < 0) console.log('juft manfiy');
+//    if (a % 2 != 0 && a < 0) console.log('toq manfiy');
+// }
+// func7(-1)
 
-// 8
-
-// 9
-
-// 10
-
-// 11
-
-// 12
-
-// 13
-
-// 14
-
-// 15
-
-// 16
-
-// 17
-
-// 18
-
-// 19
-
-// 20
-
-// 21
-
-// 22
-
-// 23
-
-// 24
-
-// 25
-
-// 26
-
-// 27
-
-// 28
-
-// 29
-
-// 30
-
-// 31
-
-// 32
-
-// 33
-
-// 34
-
-// 35
-
-// 36
-
-// 37
-
-// 38
-
-// 39
-
-// 40
-
-// 41
-
-// 42
-
-// 43
-
-// 44
-
-// 45
-
-// 46
-
-// 47
-
-// 48
-
-// 49
-
-// 50
+// function func8(a, b, c, max = c, min = c) {
+//    if (a > b && a > c)max = a;
+//    if (b > a && b > c)max = b;
+//    if (a < b && a < c)min = a;
+//    if (b < a && b < c)min =  b;
+//    console.log(max + "  " + min);
+// }
+// func8(10, 9, 8)
